@@ -16,15 +16,13 @@
             </div>
             <div id="navChild2"><button id="toggle">Add Task</button></div>
         </nav>
-        <section>
+        <section draggable="false" class="sectionParent">
             <div id="todo" class="sectionTaskColumn">
                 <div class="sectionNavBar">
                     <div id="activity">New One</div>
                     <div id="count">Count</div>
                 </div>
-                <div>
-                        
-                </div>
+                <div> </div>
             </div>
             <div id="progress" class="sectionTaskColumn">
                 <div class="sectionNavBar">
@@ -42,11 +40,9 @@
     </main>
     <div class="modal add-new-task">
         <div class="bg"></div>
-        <div class="center">
-            <input id="task-tittle" type="text" placeholder="Task title"> 
-            <textarea id="task-desc" placeholder="What is your Task ? "></textarea>
-            <button id="add-new-task" class="add-task-btn">Add task</button>
-        </div>
+        <div class="center"> <input id="task-tittle" type="text" placeholder="Task title"> <textarea id="task-desc"
+                placeholder="What is your Task ? "></textarea> <button id="add-new-task" class="add-task-btn">Add
+                task</button> </div>
     </div>
     <script src="demo.js"></script>
 </body>
