@@ -3,6 +3,7 @@ let toDo = document.querySelector("#todo");
 let progress = document.querySelector("#progress");
 let complete = document.querySelector("#completed");
 let countTask = [toDo, progress, complete];
+const isMobile = window.innerWidth <= 700; 
 let dragItem = null;
 
 
