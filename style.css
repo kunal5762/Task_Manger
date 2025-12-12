@@ -67,11 +67,11 @@ section {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-
+    height: fit-content;
 }
 
 .taskSection {
-    height: 110px;
+    height: fit-content;
     border-radius: 20px;
     background: #333232;
     display: flex;
