@@ -46,6 +46,7 @@ section {
 }
 
 .sectionTaskColumn {
+    margin: 15px;
     width: 380px;
     background-color: #232222;
     border-radius: 20px;
